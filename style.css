@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@font-face {
+  font-family: main;
+  src: url(fonts/Oswald-Regular.ttf);
+}
+body {
+  background-image: url('https://www.instamobile.io/wp-content/uploads/2020/05/willian-justen-de-vasconcellos-_MMP5j_fCqw-unsplash-1024x496.jpg');
+  background-size: cover;
+}
+.whole_container {
+  width: 95%;
+  margin: 0 auto;
+}
+.formenu {
+  width: 100%;
+}
+.formenu ul {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-transform: uppercase;
+}
+.formenu li {
+  background-color: #ffc500;
+  width: 19%;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.formenu a {
+  color: black;
+  text-decoration: none;
+}
+.taco_container {
+  width: 97%;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 0;
+}
+.taco_container img {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 70%;
+  height: 100%;
+}
+.taco_container .tacotext1,
+.tacotext2 {
+  background-color: #ffc500;
+  position: absolute;
+  margin-left: 25px;
+  font-weight: bold;
+}
+.tacotext1 {
+  font-size: 30px;
+  top: 80px;
+  width: 210px;
+  text-align: center;
+  line-height: 45px;
+}
+.tacotext2 {
+  font-size: 15px;
+  top: 135px;
+  width: 130px;
+  text-align: center;
+  line-height: 30px;
+}
+.prices_container {
+  position: absolute;
+  width: 28%;
+  height: 100%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.price1,
+.price2 {
+  width: 100%;
+  height: 46%;
+  background-color: #ffc500;
+}
+.price2 {
+  position: absolute;
+  bottom: 0;
+}
+.prices_container p {
+  margin-top: 18px;
+  font-size: 35px;
+  font-family: system-ui;
+}
+.prices_container span {
+  font-size: 13px;
+  font-weight: bold;
+}
+.fourdiv {
+  width: 97%;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.children4 {
+  width: 23.5%;
+  height: 100%;
+  background-color: white;
+}
+.fourdiv img {
+  margin: auto;
+  display: block;
+  height: 40%;
+}
+.fourdiv p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.fourdiv span {
+  font-size: 12px;
+  color: #7f7f79;
+  font-family: "main";
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 5px 10px;
+  text-shadow: 0.4px 0.4px;
+}
+.sec_taco_container {
+  width: 97%;
+  height: 240px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+}
+.sec_taco_container img {
+  height: 100%;
+}
+.sec_taco_container h2 {
+  margin-top: 45px;
+  margin-bottom: 13px;
+  font-size: 18px;
+}
+.sec_taco_container p {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.sec_taco_container input {
+  background-color: #ffc500;
+  line-height: 30px;
+  text-align: center;
+  width: 110px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.sec_taco_container input:active {
+  margin: 2px 2px;
+}
+.grad_and_title {
+  width: 97%;
+  height: 30px;
+  margin: auto;
+  margin-top: 20px;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #2a2728;
+  margin: 20px;
+}
+
+.parent{
+  width: 97%;
+  margin: 0 auto;
+}
+
+
+.last{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1 100px;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
+}
+
+.last img{
+  height: 250px;
+  width: 232px;
+}
+
+.last2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1 100px;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.last2 img{
+  height: 250px;
+  width: 232px;
+}
+/* .last,
+.last2 {
+  width: 97%;
+  margin: auto;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  padding-right: 2px;
+}
+.last2 {
+  margin-top: 170px;
+  margin-bottom: 50px;
+}
+.down_img,
+.down_img_op {
+  /* width: 11%; */
+  /* height: 100%; */
+  /* height: 250%; */
+  /* margin-right: 1%;
+  margin-bottom: 15px; */
+} */
+/* .down_img_differ {
+  height: 100%;
+  width: 11%;
+} */
+/* .last2 .down_img_op {
+  opacity: 0;
+}
+.last2 .down_img_differ {
+  opacity: 0;
+} */
